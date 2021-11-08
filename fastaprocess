@@ -1,0 +1,13 @@
+#from fasta file extracting only meaningful line
+
+fo = open("hep_B_EE85755_168.frag.fasta","r",encoding = "utf8", errors='ignore')
+line  = fo.readline()
+v = "N"
+s = ">"
+for line in fo:
+    if v in line:
+        continue
+
+    if s in line:
+        continue
+    print(line)
