@@ -1,4 +1,5 @@
 #opening a file and choosing only those instances where difference of col 2 and col 1 is 164
+#filtering only those data having bp length of 164
 
 import re
 fo = open("test_chr13-22.tsv","r", encoding ="utf8", errors="ignore")
