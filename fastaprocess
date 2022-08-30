@@ -1,4 +1,4 @@
-#from fasta file extracting only meaningful line
+#from fasta file extracting only meaningful line (sequences)
 
 fo = open("hep_B_EE85755_168.frag.fasta","r",encoding = "utf8", errors='ignore')
 line  = fo.readline()
